@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="x7-mailer">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .x7-mailer * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 560px;
+        margin: auto;
+        background-color: black;
+        overflow: hidden;
+      }
+
+      .header,
+      .banner,
+      .content,
+      .footer,
+      .license-content {
+        width: 100%;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .header .logo {
+        max-width: 32%;
+        height: auto;
+        display: block;
+        padding: 10px 0 0 10px;
+      }
+
+      .banner {
+        border-bottom: 2px solid #ff32fa;
+        box-shadow: 0px 10px 20px -5px rgba(255, 50, 250, 0.5);
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 40px;
+      }
+      .content h1 {
+        color: #fff;
+        font-size: 24px;
+        margin: 3vh 0;
+        text-align: left;
+      }
+      .content p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.5;
+
+        padding-bottom: 10px;
+        text-align: left;
+      }
+      .content .cta-button {
+        background: #f73068;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 0;
+        font-size: 16px;
+        display: inline-block;
+        margin: 25px 0;
+        font-weight: bold;
+      }
+      .content .button-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+      }
+      .content .button-wrapper {
+        justify-content: center;
+      }
+      .footer {
+        background-color: #231f20;
+        border-bottom-style: solid;
+        border-width: 4vh;
+        border-color: #990099;
+      }
+      .license-content {
+        background-color: white;
+      }
+      .license-content p {
+        line-height: 1rem;
+        font-size: 10px;
+        padding: 5px 15px 5px 15px;
+        text-align: center;
+        color: #6c6c6c;
+      }
+      .license-content .responsive-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .license-content .responsive-link {
+        padding: 0 20px;
+      }
+      .license-content .responsive-link .kgc {
+        width: 150px;
+      }
+      .license-content .responsive-link .quit {
+        width: 100px;
+      }
+      @media (max-width: 560px) {
+        .license-content .responsive-link {
+          padding: 0 10px;
+        }
+        .license-content .responsive-link .quit {
+          width: 150px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://scdn.ntgm.rocks/image/stakes/auto/auto/X7%20CASINO_FullColour.png"
+          alt="Logo"
+          class="logo"
+        />
+      </div>
+      <div class="header">
+        <img
+          src="https://scdn.ntgm.rocks/image/stakes/auto/auto/1header.png"
+          alt="borderDesign"
+        />
+      </div>
+      <div class="banner">
+        <img
+          src="https://kgc-igpcms-production.s3.eu-central-1.amazonaws.com/x7c/pages/202402_X7_Email%20Activation_8d856262bf.webp"
+          alt="Banner"
+        />
+      </div>
+      <div class="content">
+        <h1>Hola *|PLAYER_FNAME|*,</h1>
+        <p>¡Gracias por registrarte en X7!</p>
+        <p>
+          Un último paso antes de comenzar. Solo necesitamos que verifiques tu
+          dirección de correo electrónico haciendo clic en el botón de abajo.
+          Esto nos ayudará a confirmar tu identidad y proteger tu cuenta de
+          fuerzas desconocidas.
+        </p>
+        <div class="button-wrapper">
+          <a href="https://example.com/cta-link" class="cta-button"
+            >Verificarme
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <img
+          src="https://scdn.ntgm.rocks/image/stakes/auto/auto/payment%20gateway%20mailer%20logo.png"
+          alt="Footer"
+        />
+      </div>
+      <div class="license-content">
+        <p>
+          X7 Casino is licensed under Starscream Limited, a company incorporated
+          under the laws of Saint Lucia with registration number 2023-00007 and
+          registered address in Saint Lucia, holder of a Client Provider
+          Authorization numbered 00952 issued on July 2023 by the Kahnawake
+          Gaming Commission. X7 Casino is operated by Stardust Global CCS Ltd
+          acting as a Merchant of Record, Stardust Global CCS Ltd., a company
+          incorporated under the Laws of Cyprus with registration number HE
+          443351, and its registered address is Alexandroupoleos 11, Block A,
+          Apartment/Office 401, 6037, Larnaca, Cyprus. Stardust Global CCS Ltd.
+          is 100% subsidiary of Starscream Limited. Gambling can be addictive,
+          please Play Responsibly. For help visit our Responsible Gambling page.
+          Underage gambling is an offence. 18+ X7 Casino© Copyright 2024.
+        </p>
+        <div class="responsive-links">
+          <a
+            class="responsive-link"
+            href="https://www.gamblersanonymous.org/ga/"
+            target="_blank"
+            ><img
+              class="responsive-img ga"
+              src="https://userimg-assets.customeriomail.com/images/client-env-110039/editor_images/logo-01HPKBKK6BYK199VJEM7ERHXMX.png"
+          /></a>
+          <a
+            class="responsive-link"
+            href="https://x7casino.com/en/responsible-gaming"
+            target="_blank"
+            ><img
+              class="responsive-img legal-age"
+              src="https://userimg-assets.customeriomail.com/images/client-env-110039/editor_images/18pluslogo-recolored1-01HPKBM0VX2W9TQMT57GTP6BJV.png"
+          /></a>
+          <a
+            class="responsive-link"
+            href="https://quitgamble.com/"
+            target="_blank"
+            ><img
+              class="responsive-img quit"
+              src="https://userimg-assets.customeriomail.com/images/client-env-110039/editor_images/QuitGamble_orig%20color-01HPKA6ZEHDKGCG675JXREFETR.png"
+          /></a>
+          <a
+            class="responsive-link"
+            href="https://www.responsiblegambling.org/"
+            target="_blank"
+            ><img
+              class="responsive-img rgc"
+              src="https://userimg-assets.customeriomail.com/images/client-env-110039/editor_images/RGC_recolored-01HPKA7498DFD7JSB19ERBKSXE.png"
+          /></a>
+          <a
+            class="responsive-link"
+            href="https://x7casino.com/en/responsible-gaming"
+            target="_blank"
+            ><img
+              class="responsive-img kgc"
+              src="https://userimg-assets.customeriomail.com/images/client-env-110039/editor_images/Kahnawake_orig%20color-01HPKA6D9EF83NMEEN6D1CC3AJ.png"
+          /></a>
+        </div>
+        <p>Gambling can be addictive. Play responsibly.</p>
+      </div>
+    </div>
+  </body>
+</html>
